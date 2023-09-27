@@ -38,3 +38,6 @@ Route::get('/settings', function () {
     'frameworks' => ['Laravel', 'Angular','Vue']
     ]);
 });
+Route::post('/logout', function () {
+         dd('hello from logout');
+});
